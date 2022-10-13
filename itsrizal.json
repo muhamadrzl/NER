@@ -1,0 +1,26 @@
+{
+    "intent": [
+        {
+            "actions": [
+                "Halo ada yang bisa aku bantu ?",
+                "iya, ada yang bisa aku bantu ?"
+            ],
+            "events": [
+                "halo",
+                "hai",
+                "haii",
+                "hey"
+            ],
+            "name": "intro"
+        },
+        {
+            "actions": [
+                "Maaf, aku tidak mengerti pertanyaan kamu"
+            ],
+            "events": [
+                "Otomatis terdeteksi jika bot tidak mengenali pertanyaan"
+            ],
+            "name": "fallback"
+        }
+    ]
+}
